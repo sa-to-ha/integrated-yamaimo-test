@@ -189,6 +189,7 @@ img {
     }
     .button {
         height: 7vw;
+        width: auto;
         padding: 1vw;
         margin: 0 1.2vw ;
     }
