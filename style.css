@@ -159,6 +159,17 @@ img {
 
 
 @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+    .button-container {
+        margin-left: 0;
+        margin-top: 42vw;
+        display: flex;
+    }
+    .button {
+        height: 7vw;
+        width: auto;
+        padding: 1vw;
+        margin: 0 1.2vw ;
+    }
     .container {
         flex-direction :column;
     }
@@ -182,17 +193,6 @@ img {
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
     }
-    .button-container {
-        margin-left: 0;
-        margin-top: 42vw;
-        display: flex;
-    }
-    .button {
-        height: 7vw;
-        width: auto;
-        padding: 1vw;
-        margin: 0 1.2vw ;
-    }
     .cs {
         width: 40vw;
     }
@@ -212,12 +212,3 @@ img {
         }
     }
 }
-
-/* @media (prefers-color-scheme: dark) {
-body {
-    background-color: rgb(16, 16, 16);
-}
-.button {
-    filter: invert(1) hue-rotate(180deg);
-}
-} */
