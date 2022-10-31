@@ -144,8 +144,6 @@ img {
 }
 
 .button {
-    height: 3vh;
-    width: 100%;
     padding: 1vh;
     display: flex;
     justify-content: flex-end;
@@ -153,6 +151,8 @@ img {
 }
 
 .button img {
+    height: 3vh;
+    width: auto;
     margin: 0 auto;
 }
 
@@ -165,9 +165,12 @@ img {
         display: flex;
     }
     .button {
-        height: 7vw;
         padding: 1vw;
         margin: 0 1.2vw ;
+    }
+    .button img{
+        height: 3vh;
+        width: auto;
     }
     .container {
         flex-direction :column;
