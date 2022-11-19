@@ -92,7 +92,7 @@ img {
     animation-timing-function:cubic-bezier(.65,0,.56,1);
     z-index: 1;
     transition-duration: .2s;
-    height: 10%;
+    height: 5%;
     cursor: pointer;
 }
 
@@ -108,7 +108,7 @@ img {
         height: 100%;
     }
     100%{
-        height:10%;
+        height:5%;
     }
 }
 
@@ -134,7 +134,7 @@ img {
     flex-direction: column;
 }
 
-.button-container {
+#button-container {
     height: auto;
     width: auto;
     margin-left: 1vh;
@@ -159,9 +159,8 @@ img {
 
 
 @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
-    .button-container {
+    #button-container {
         margin-left: 0;
-        margin-top: 42vw;
         display: flex;
     }
     .button {
@@ -186,7 +185,7 @@ img {
     }
     #heart {
         height: auto;
-        width: 20%;
+        width: 10.5%;
     }
     .link-container {
         top: 50%;
@@ -210,7 +209,11 @@ img {
             width: 100%;
         }
         100%{
-            width: 20%;
+            width: 10.5%;
         }
+    }
+    #note-button {
+        margin-left: 15vw;
+        margin-right: 16vw;
     }
 }
