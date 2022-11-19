@@ -8,7 +8,7 @@ heart.addEventListener('click', () => {
     clickCount += 1
     console.log(clickCount)
     if (window.matchMedia && window.matchMedia('(max-device-width: 479px)').matches) {  
-        button.style.transform = "scale(" +  ( 1 - clickCount /10 ) + ")";
+        button.style.transform = "scale(" +  ( 1 - clickCount /20 ) + ")";
         heart.style.width = 20 + clickCount * clickCount /1.5 + "%";
         if (clickCount === 1) {
             timer = setTimeout(() => {heart.style.width ="10.5%";
